@@ -1,0 +1,14 @@
+{
+  "name": "test/drupal_scripts",
+  "description": "Custom module description here",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "require": { },
+}
+{
+  "extra": {
+      "installer-paths": {
+          "../{$name}/": ["test", "vendor/package"]
+      }
+  }
+}
