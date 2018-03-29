@@ -7,7 +7,7 @@
   "require": { },
   "extra": {
       "installer-paths": {
-          "{$name}/": ["test", "vendor/package"]
+          "./{$name}/": ["test", "vendor/package"]
       }
   }
 }
