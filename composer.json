@@ -9,7 +9,7 @@
   },
   "extra": {
       "installer-paths": {
-          "./{$name}/": ["test", "vendor/package"]
+          "site-scripts/{$name}/": ["test", "myscript"]
       }
   }
 }
