@@ -4,7 +4,9 @@
   "type": "drupal-custom-script",
   "version": "1.0.0",
   "minimum-stability": "dev",
-  "require": { },
+  "require": {
+    "composer/installers": "~1.0"
+  },
   "extra": {
       "installer-paths": {
           "./{$name}/": ["test", "vendor/package"]
